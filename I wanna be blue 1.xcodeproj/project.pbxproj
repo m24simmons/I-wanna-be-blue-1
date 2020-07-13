@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0786A324BCD7ED0056C535 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0786A224BCD7ED0056C535 /* AppDelegate.swift */; };
+		3F0786A524BCD7ED0056C535 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0786A424BCD7ED0056C535 /* SceneDelegate.swift */; };
+		3F0786A724BCD7ED0056C535 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0786A624BCD7ED0056C535 /* ViewController.swift */; };
+		3F0786AA24BCD7ED0056C535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0786A824BCD7ED0056C535 /* Main.storyboard */; };
+		3F0786AC24BCD7EF0056C535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0786AB24BCD7EF0056C535 /* Assets.xcassets */; };
+		3F0786AF24BCD7EF0056C535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0786AD24BCD7EF0056C535 /* LaunchScreen.storyboard */; };
+		3F0786BA24BCD7EF0056C535 /* I_wanna_be_blue_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0786B924BCD7EF0056C535 /* I_wanna_be_blue_1Tests.swift */; };
+		3F0786C524BCD7EF0056C535 /* I_wanna_be_blue_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0786C424BCD7EF0056C535 /* I_wanna_be_blue_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0786B624BCD7EF0056C535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F07869724BCD7ED0056C535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F07869E24BCD7ED0056C535;
+			remoteInfo = "I wanna be blue 1";
+		};
+		3F0786C124BCD7EF0056C535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F07869724BCD7ED0056C535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F07869E24BCD7ED0056C535;
+			remoteInfo = "I wanna be blue 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F07869F24BCD7ED0056C535 /* I wanna be blue 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "I wanna be blue 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0786A224BCD7ED0056C535 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0786A424BCD7ED0056C535 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F0786A624BCD7ED0056C535 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0786A924BCD7ED0056C535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0786AB24BCD7EF0056C535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0786AE24BCD7EF0056C535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0786B024BCD7EF0056C535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0786B524BCD7EF0056C535 /* I wanna be blue 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blue 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0786B924BCD7EF0056C535 /* I_wanna_be_blue_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blue_1Tests.swift; sourceTree = "<group>"; };
+		3F0786BB24BCD7EF0056C535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0786C024BCD7EF0056C535 /* I wanna be blue 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "I wanna be blue 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0786C424BCD7EF0056C535 /* I_wanna_be_blue_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = I_wanna_be_blue_1UITests.swift; sourceTree = "<group>"; };
+		3F0786C624BCD7EF0056C535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F07869C24BCD7ED0056C535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786B224BCD7EF0056C535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786BD24BCD7EF0056C535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F07869624BCD7ED0056C535 = {
+			isa = PBXGroup;
+			children = (
+				3F0786A124BCD7ED0056C535 /* I wanna be blue 1 */,
+				3F0786B824BCD7EF0056C535 /* I wanna be blue 1Tests */,
+				3F0786C324BCD7EF0056C535 /* I wanna be blue 1UITests */,
+				3F0786A024BCD7ED0056C535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0786A024BCD7ED0056C535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F07869F24BCD7ED0056C535 /* I wanna be blue 1.app */,
+				3F0786B524BCD7EF0056C535 /* I wanna be blue 1Tests.xctest */,
+				3F0786C024BCD7EF0056C535 /* I wanna be blue 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0786A124BCD7ED0056C535 /* I wanna be blue 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F0786A224BCD7ED0056C535 /* AppDelegate.swift */,
+				3F0786A424BCD7ED0056C535 /* SceneDelegate.swift */,
+				3F0786A624BCD7ED0056C535 /* ViewController.swift */,
+				3F0786A824BCD7ED0056C535 /* Main.storyboard */,
+				3F0786AB24BCD7EF0056C535 /* Assets.xcassets */,
+				3F0786AD24BCD7EF0056C535 /* LaunchScreen.storyboard */,
+				3F0786B024BCD7EF0056C535 /* Info.plist */,
+			);
+			path = "I wanna be blue 1";
+			sourceTree = "<group>";
+		};
+		3F0786B824BCD7EF0056C535 /* I wanna be blue 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0786B924BCD7EF0056C535 /* I_wanna_be_blue_1Tests.swift */,
+				3F0786BB24BCD7EF0056C535 /* Info.plist */,
+			);
+			path = "I wanna be blue 1Tests";
+			sourceTree = "<group>";
+		};
+		3F0786C324BCD7EF0056C535 /* I wanna be blue 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F0786C424BCD7EF0056C535 /* I_wanna_be_blue_1UITests.swift */,
+				3F0786C624BCD7EF0056C535 /* Info.plist */,
+			);
+			path = "I wanna be blue 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F07869E24BCD7ED0056C535 /* I wanna be blue 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0786C924BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1" */;
+			buildPhases = (
+				3F07869B24BCD7ED0056C535 /* Sources */,
+				3F07869C24BCD7ED0056C535 /* Frameworks */,
+				3F07869D24BCD7ED0056C535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "I wanna be blue 1";
+			productName = "I wanna be blue 1";
+			productReference = 3F07869F24BCD7ED0056C535 /* I wanna be blue 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0786B424BCD7EF0056C535 /* I wanna be blue 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0786CC24BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1Tests" */;
+			buildPhases = (
+				3F0786B124BCD7EF0056C535 /* Sources */,
+				3F0786B224BCD7EF0056C535 /* Frameworks */,
+				3F0786B324BCD7EF0056C535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0786B724BCD7EF0056C535 /* PBXTargetDependency */,
+			);
+			name = "I wanna be blue 1Tests";
+			productName = "I wanna be blue 1Tests";
+			productReference = 3F0786B524BCD7EF0056C535 /* I wanna be blue 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F0786BF24BCD7EF0056C535 /* I wanna be blue 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0786CF24BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1UITests" */;
+			buildPhases = (
+				3F0786BC24BCD7EF0056C535 /* Sources */,
+				3F0786BD24BCD7EF0056C535 /* Frameworks */,
+				3F0786BE24BCD7EF0056C535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0786C224BCD7EF0056C535 /* PBXTargetDependency */,
+			);
+			name = "I wanna be blue 1UITests";
+			productName = "I wanna be blue 1UITests";
+			productReference = 3F0786C024BCD7EF0056C535 /* I wanna be blue 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F07869724BCD7ED0056C535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F07869E24BCD7ED0056C535 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F0786B424BCD7EF0056C535 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F07869E24BCD7ED0056C535;
+					};
+					3F0786BF24BCD7EF0056C535 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F07869E24BCD7ED0056C535;
+					};
+				};
+			};
+			buildConfigurationList = 3F07869A24BCD7ED0056C535 /* Build configuration list for PBXProject "I wanna be blue 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F07869624BCD7ED0056C535;
+			productRefGroup = 3F0786A024BCD7ED0056C535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F07869E24BCD7ED0056C535 /* I wanna be blue 1 */,
+				3F0786B424BCD7EF0056C535 /* I wanna be blue 1Tests */,
+				3F0786BF24BCD7EF0056C535 /* I wanna be blue 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F07869D24BCD7ED0056C535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0786AF24BCD7EF0056C535 /* LaunchScreen.storyboard in Resources */,
+				3F0786AC24BCD7EF0056C535 /* Assets.xcassets in Resources */,
+				3F0786AA24BCD7ED0056C535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786B324BCD7EF0056C535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786BE24BCD7EF0056C535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F07869B24BCD7ED0056C535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0786A724BCD7ED0056C535 /* ViewController.swift in Sources */,
+				3F0786A324BCD7ED0056C535 /* AppDelegate.swift in Sources */,
+				3F0786A524BCD7ED0056C535 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786B124BCD7EF0056C535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0786BA24BCD7EF0056C535 /* I_wanna_be_blue_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0786BC24BCD7EF0056C535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0786C524BCD7EF0056C535 /* I_wanna_be_blue_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0786B724BCD7EF0056C535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F07869E24BCD7ED0056C535 /* I wanna be blue 1 */;
+			targetProxy = 3F0786B624BCD7EF0056C535 /* PBXContainerItemProxy */;
+		};
+		3F0786C224BCD7EF0056C535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F07869E24BCD7ED0056C535 /* I wanna be blue 1 */;
+			targetProxy = 3F0786C124BCD7EF0056C535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F0786A824BCD7ED0056C535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0786A924BCD7ED0056C535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0786AD24BCD7EF0056C535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0786AE24BCD7EF0056C535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0786C724BCD7EF0056C535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0786C824BCD7EF0056C535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0786CA24BCD7EF0056C535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0786CB24BCD7EF0056C535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F0786CD24BCD7EF0056C535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue 1.app/I wanna be blue 1";
+			};
+			name = Debug;
+		};
+		3F0786CE24BCD7EF0056C535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/I wanna be blue 1.app/I wanna be blue 1";
+			};
+			name = Release;
+		};
+		3F0786D024BCD7EF0056C535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue 1";
+			};
+			name = Debug;
+		};
+		3F0786D124BCD7EF0056C535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "I wanna be blue 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Megan-Simmons.I-wanna-be-blue-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "I wanna be blue 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F07869A24BCD7ED0056C535 /* Build configuration list for PBXProject "I wanna be blue 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0786C724BCD7EF0056C535 /* Debug */,
+				3F0786C824BCD7EF0056C535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0786C924BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0786CA24BCD7EF0056C535 /* Debug */,
+				3F0786CB24BCD7EF0056C535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0786CC24BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0786CD24BCD7EF0056C535 /* Debug */,
+				3F0786CE24BCD7EF0056C535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0786CF24BCD7EF0056C535 /* Build configuration list for PBXNativeTarget "I wanna be blue 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0786D024BCD7EF0056C535 /* Debug */,
+				3F0786D124BCD7EF0056C535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F07869724BCD7ED0056C535 /* Project object */;
+}
